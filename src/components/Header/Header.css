@@ -1,0 +1,21 @@
+.header-content {
+    height: 80vh;
+    background:url("../../images/library-img3.webp") center/cover no-repeat;
+    display: flex;
+    flex-direction: column; /* แก้ไขจาก colum เป็น column */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* ให้เนื้อหาทุกอย่างใน .header-content จัดกลาง */
+}
+
+.header-title {
+    font-size: 4.2rem;
+    text-transform: capitalize; /* ย้ายมาจาก selector ที่ไม่ถูกต้อง */
+}
+
+.header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}
